@@ -1,0 +1,168 @@
+/* ---------- GENERAL ---------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background: white;
+    line-height: 1.6;
+}
+
+a {
+    color: #2b5d8a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* ---------- HEADER ---------- */
+
+header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.nav-container {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 24px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-title {
+    font-size: 22px;
+    font-weight: 500;
+    color: #333;
+}
+
+.site-title:hover {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    gap: 32px;
+}
+
+nav a {
+    color: #555;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #111;
+}
+
+nav a.active {
+    color: #111;
+    border-bottom: 2px solid #555;
+}
+
+
+/* ---------- HOMEPAGE ---------- */
+
+main {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 80px 30px;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.photo-column {
+    width: 100%;
+}
+
+.profile-photo {
+    width: 100%;
+    max-width: 280px;
+    display: block;
+    border-radius: 2px;
+}
+
+.bio-column {
+    max-width: 560px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 28px;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #222;
+}
+
+.bio-column p {
+    margin: 0 0 20px;
+    font-size: 16px;
+}
+
+.email-heading {
+    margin-top: 34px !important;
+    margin-bottom: 4px !important;
+    font-weight: 500;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    max-width: 1050px;
+    margin: 60px auto 0;
+    padding: 30px;
+
+    border-top: 1px solid #eee;
+
+    font-size: 13px;
+    color: #888;
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 700px) {
+
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+    }
+
+    nav {
+        gap: 22px;
+    }
+
+    main {
+        padding-top: 45px;
+    }
+
+    .profile {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .profile-photo {
+        max-width: 240px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
