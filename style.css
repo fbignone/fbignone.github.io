@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 /* ---------- GENERAL ---------- */
 
@@ -110,7 +110,7 @@ h1 {
     margin-top: 0;
     margin-bottom: 28px;
     font-size: 38px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 1.2;
     color: #222;
 }
@@ -228,13 +228,13 @@ footer {
     margin: 0 0 7px;
 
     font-size: 19px;
-    font-weight: 900;
+    font-weight: 700;
     line-height: 1.4;
 }
 
 .paper h3 a {
     color: #222;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .paper h3 a:hover {
