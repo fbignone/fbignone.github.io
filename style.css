@@ -35,7 +35,7 @@ header {
 }
 
 .nav-container {
-    max-width: 1050px;
+    max-width: 1250px;
     margin: 0 auto;
     padding: 24px 30px;
 
@@ -79,7 +79,7 @@ nav a.active {
 /* ---------- HOMEPAGE ---------- */
 
 main {
-    max-width: 1100px;
+    max-width: 1250px;
     margin: 0 auto;
     padding: 80px 30px;
 }
@@ -103,7 +103,7 @@ main {
 }
 
 .bio-column {
-    max-width: 560px;
+    max-width: 700px;
 }
 
 h1 {
@@ -130,7 +130,7 @@ h1 {
 /* ---------- FOOTER ---------- */
 
 footer {
-    max-width: 1050px;
+    max-width: 1250px;
     margin: 60px auto 0;
     padding: 30px;
 
@@ -196,7 +196,7 @@ footer {
 /* ---------- RESEARCH PAGE ---------- */
 
 .research-main {
-    max-width: 850px;
+    max-width: 1250px;
     margin: 0 auto;
     padding: 70px 30px;
 }
@@ -206,6 +206,7 @@ footer {
 }
 
 .research-section {
+    max-width: 1050px;
     margin-bottom: 65px;
 }
 
