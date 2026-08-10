@@ -142,20 +142,37 @@ footer {
 
 .footer-links {
     display: flex;
+    align-items: center;
     gap: 12px;
     margin-bottom: 18px;
 }
 
-.footer-button {
-    padding: 7px 12px;
-    border: 1px solid #ccd6df;
-    border-radius: 3px;
-    color: #2b5d8a;
-    font-size: 14px;
+.footer-logo-link {
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
 
-.footer-button:hover {
-    background: #f5f7f9;
+.footer-logo-linkedin {
+    background: #5f6368;
+}
+
+.footer-logo {
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+.footer-logo-linkedin .footer-logo {
+    width: 28px;
+    height: 28px;
+}
+
+.footer-logo-link:hover {
+    opacity: 0.85;
     text-decoration: none;
 }
 
