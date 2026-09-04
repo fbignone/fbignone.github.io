@@ -86,7 +86,7 @@ main {
 }
 
 .home-main {
-    padding: 52px 30px 24px;
+    padding: 52px 30px 12px;
 }
 
 .profile {
@@ -156,8 +156,15 @@ footer {
     color: #888;
 }
 
-.home-main + footer {
-    margin-top: 0;
+.home-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-page footer {
+    width: 100%;
+    margin-top: auto;
 }
 
 .footer-links {
@@ -216,7 +223,7 @@ footer {
     }
 
     .home-main {
-        padding: 36px 20px 18px;
+        padding: 36px 20px 12px;
     }
 
     .profile {
