@@ -156,22 +156,17 @@ footer {
     color: #888;
 }
 
-.home-page {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.home-page footer {
-    width: 100%;
-    margin-top: auto;
-}
-
-.footer-links {
+.profile-links {
     display: flex;
     align-items: center;
     gap: 12px;
-    margin-bottom: 18px;
+    margin-top: 30px;
+}
+
+.bio-column .profile-copyright {
+    margin: 18px 0 0;
+    font-size: 13px;
+    color: #888;
 }
 
 .footer-logo-link {
