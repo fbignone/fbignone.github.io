@@ -230,15 +230,21 @@ footer {
 }
 
 .footer-logo-univie {
-    width: 96px;
-    height: 48px;
-    border-radius: 0;
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
+/* Frame the circular seal within the supplied horizontal university logo. */
 .footer-logo-univie .footer-logo {
-    width: 96px;
-    height: 48px;
-    object-fit: contain;
+    position: absolute;
+    width: 128px;
+    height: 64px;
+    max-width: none;
+    left: -7.5px;
+    top: -16px;
 }
 
 .footer-logo-link:hover {
