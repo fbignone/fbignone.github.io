@@ -229,6 +229,18 @@ footer {
     height: 28px;
 }
 
+.footer-logo-univie {
+    width: 96px;
+    height: 48px;
+    border-radius: 0;
+}
+
+.footer-logo-univie .footer-logo {
+    width: 96px;
+    height: 48px;
+    object-fit: contain;
+}
+
 .footer-logo-link:hover {
     opacity: 0.85;
     text-decoration: none;
